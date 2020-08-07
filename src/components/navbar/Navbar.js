@@ -11,14 +11,16 @@ const Navbar = () => {
       <div className={styles.logo}>
         <Link to="/">
           <i
-            className={`${activeLogo == "/" && styles.activeLogo} fas fa-home `}
+            className={`${
+              activeLogo === "/" && styles.activeLogo
+            } fas fa-home `}
             onClick={() => setActiveLogo("/")}
           ></i>
         </Link>
         <Link to="/about">
           <i
             className={`${
-              activeLogo == "/about" && styles.activeLogo
+              activeLogo === "/about" && styles.activeLogo
             } fas fa-user`}
             onClick={() => setActiveLogo("/about")}
           ></i>
@@ -26,7 +28,7 @@ const Navbar = () => {
         <Link to="/project">
           <i
             className={`${
-              activeLogo == "/project" && styles.activeLogo
+              activeLogo === "/project" && styles.activeLogo
             } fas fa-file-code`}
             onClick={() => setActiveLogo("/project")}
           ></i>
@@ -34,7 +36,7 @@ const Navbar = () => {
         <Link to="/contact">
           <i
             className={`${
-              activeLogo == "/contact" && styles.activeLogo
+              activeLogo === "/contact" && styles.activeLogo
             } fas fa-envelope`}
             onClick={() => setActiveLogo("/contact")}
           ></i>
