@@ -4,7 +4,6 @@ import { Link, useLocation } from "react-router-dom";
 
 const Navbar = () => {
   const location = useLocation().pathname;
-  console.log(location);
   const [activeLogo, setActiveLogo] = useState(location);
   return (
     <div className={styles.navbar}>
