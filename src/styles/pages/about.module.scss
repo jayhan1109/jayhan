@@ -1,0 +1,29 @@
+@import "../util.module.scss";
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile {
+  flex: 1;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageContainer {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: url("../../assets/profile.jpg") no-repeat center center/cover;
+}
+
+.name {
+  flex: 1;
+  height: 100vh;
+  overflow: hidden;
+}

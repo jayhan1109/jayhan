@@ -2,10 +2,10 @@ import React from "react";
 import "./App.scss";
 import Navbar from "./components/navbar/Navbar";
 import { Route, Switch } from "react-router-dom";
-import Home from "./components/pages/home/Home";
-import Project from "./components/pages/project/Project";
-import About from "./components/pages/about/About";
-import Contact from "./components/pages/contact/Contact";
+import Home from "./components/pages/Home";
+import Project from "./components/pages/Project";
+import About from "./components/pages/About";
+import Contact from "./components/pages/Contact";
 
 const App = () => {
   return (
